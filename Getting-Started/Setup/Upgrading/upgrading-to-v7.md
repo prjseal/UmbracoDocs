@@ -123,7 +123,7 @@ Since this is an advanced property editor, the data format has changed from xml 
 
 ### GUID -> Alias mapping
 
-There are several database changes made in v7, one of which is the change of referencing a property editor from a GUID to a string alias. If you have a legacy property editor that you'd like to map to a new v7 property editor you can add your custom GUID -> Alias map during application startup. Do do this you'd add your map with this method: `Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter.CreateMap`
+There are several database changes made in v7, one of which is the change of referencing a property editor from a GUID to a string alias. If you have a legacy property editor that you'd like to map to a new v7 property editor you can add your custom GUID -> Alias map during application startup. To do this you'd add your map with this method: `Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter.CreateMap`
 
 ## Parameter Editors
 
